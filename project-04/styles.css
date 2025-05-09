@@ -51,9 +51,9 @@ input {
 
 button {
   background: #772fd3;
-  border-radius: 5px;
+  border-radius: 8px;
+  border: none;
   width: 100%;
-  border-radius: none;
   height: 48px;
   color: #ffffff;
   font-weight: 700;
@@ -95,9 +95,10 @@ section {
   font-size: 14px;
 }
 
-.currency-value,
-.currency-value-to-convert {
-  color: #555555;
-  font-weight: 700;
-  font-size: 20px;
+.currency-img1 {
+  box-shadow: 120px 120px 120px rgba(0, 0, 0, 0.1);
+}
+
+.currency-img {
+  box-shadow: 120px 120px 120px rgba(0, 0, 0, 0.1);
 }
